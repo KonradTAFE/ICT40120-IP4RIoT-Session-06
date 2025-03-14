@@ -12,7 +12,9 @@ in your contribution and merge them into their branch. Pull requests show
 differences between the content from both branches and the changes are visible
 in the repository.
 
-<!-- TODO: Add information on PRs and forks. -->
+To FORK a repository means to create an independent copy of someone else's repo on your account,
+allowing you to work separately on the code, apply your changes or adjust it to your needs, without
+any impact on the original owner's code.
 
 ## Set up your environment
 
@@ -58,6 +60,7 @@ git remote -v
 
 3. Consider why it does not provide a URL for pull, only `push` and `fetch`?
 
+PULL is the same as FETCH and MERGE.
 ---
 
 4. Push the local repository to the remote repository.
@@ -71,12 +74,10 @@ git remote -v
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes
-from a remote to your local repository. And that's because you have to ask
-permission to copy changes out of the repository, even if you have read access
-to that repository.
+PULL REQUEST is used to ask the main repository owner to apply your changes in their repository.
+As the name suggests, you are REQUESTING the owner to PULL (which means FETCH and MERGE) your
+code into theirs, allowing them to review your proposed changes and accept or disregard the request.
 
-<!--TODO: This answer is SO wrong, I think we need to fix it! -->
 
 ### Create a local branch
 
