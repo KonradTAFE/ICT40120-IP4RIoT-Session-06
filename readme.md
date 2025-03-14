@@ -12,7 +12,9 @@ in your contribution and merge them into their branch. Pull requests show
 differences between the content from both branches and the changes are visible
 in the repository.
 
-<!-- TODO: Add information on PRs and forks. -->
+To FORK a repository means to create an independent copy of someone else's repo on your account,
+allowing you to work separately on the code, apply your changes or adjust it to your needs, without
+any impact on the original owner's code.
 
 ## Set up your environment
 
@@ -58,6 +60,7 @@ git remote -v
 
 3. Consider why it does not provide a URL for pull, only `push` and `fetch`?
 
+PULL is the same as FETCH and MERGE.
 ---
 
 4. Push the local repository to the remote repository.
