@@ -74,12 +74,10 @@ PULL is the same as FETCH and MERGE.
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes
-from a remote to your local repository. And that's because you have to ask
-permission to copy changes out of the repository, even if you have read access
-to that repository.
+PULL REQUEST is used to ask the main repository owner to apply your changes in their repository.
+As the name suggests, you are REQUESTING the owner to PULL (which means FETCH and MERGE) your
+code into theirs, allowing them to review your proposed changes and accept or disregard the request.
 
-<!--TODO: This answer is SO wrong, I think we need to fix it! -->
 
 ### Create a local branch
 
